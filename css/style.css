@@ -162,7 +162,7 @@ button{
     text-decoration: none;
     color:#BDBDBD;
 }
-/* ===================================375PX=================================================== */
+/* ===================================480PX=================================================== */
 @media screen and (max-width:480px) {
     body{
         margin:2rem 0.7rem;
@@ -233,10 +233,14 @@ button{
     }
     h2{
         font-size:1.2rem;
+        margin-top:1.8rem;
     }
     label{
         font-size:0.7rem;
         padding-left:10px;
+    }
+    .instruction{
+        margin-top:1.8rem;
     }
     .button-text p{
         font-size:0.7rem;
