@@ -1,0 +1,254 @@
+*{
+    padding:0;
+    margin:0;
+    box-sizing: border-box;
+}
+body{
+    margin:2rem 15rem;
+    background-color:#FFFFFF;
+}
+.heading h1{
+    font-size:1.9rem;
+    font-weight:bold;
+    letter-spacing:0px;
+    font-family: 'Playfair Display', serif;
+}
+.container-one{
+    margin-top:0.7rem;
+    display:flex;
+}
+.container-one img{
+   margin-right:10px; 
+   margin-bottom:2.7px;
+}
+.container-one p{
+   font-size:0.8rem;
+   color:#4F4F4F;
+   font-family: 'Montserrat', sans-serif;
+   margin-bottom:2rem;
+   font-style: italic;
+   width:60%;
+}
+.main-photo img{
+    max-width:100%;
+    margin-bottom:2rem;
+}
+.left{
+    margin-right:28rem;
+}
+/* =========================================================THE FLOATING SIDE================================================== */
+.floating{
+    float:right;
+    background-color:#FFFFFF;
+    box-shadow: 1px 1px 10px 1px #dedddd;;
+    width:20%;
+    height:275px;
+    border:none;
+    border-radius:10px;
+}
+.knife-fork{
+    display:flex;
+    margin-top:2.2rem;
+    margin-bottom:0.5rem;
+    padding:0 1.5rem;
+}
+.knife-fork .side-text p{
+    color:#F2994A;
+}
+.side-text{
+    padding:0 1rem;
+}
+.side-text h4,
+.side h4{
+    font-size:0.7rem;
+    font-family: 'Montserrat', sans-serif;
+    font-weight:100;
+    color:#BDBDBD;
+}
+.side-text p,
+.side p{
+    font-size:0.8rem;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 900;
+    color:#333333;
+    text-align:left;
+}
+.icon{
+    color:#F2994A;
+    font-size:1.8rem;
+}
+i{
+    font-size:1.2rem; 
+}
+.item{
+    display:flex;
+    padding:1rem 1.5rem;
+}
+.item i{
+    margin-top:0.4rem;
+}
+.side{
+    padding:0 1rem;
+}
+/* ============================================================================================================================== */
+/* =========================================================INGREDIENTS========================================================== */
+h2{
+    font-family:'Playfair Display', serif;
+    font-weight:400;
+    font-size:1.2rem;
+}
+h3{
+    font-style: italic;
+    color: #333333;
+    font-weight:500;
+    font-size:1rem;
+    margin:1.2rem 0;
+}
+input[type="checkbox"]{
+    margin-bottom:21px;
+}
+.line-flex{
+    display:flex;
+}
+label{
+    font-family: 'Montserrat', sans-serif;
+    font-size:0.8rem;
+    padding-left:10px;
+    line-height: 16px;
+}
+/* ==================================================================================================================================== */
+.instruction h2{
+    margin-top:1.2rem;
+    margin-bottom:0.8rem;
+
+}
+.button-text{
+    display:grid;
+    grid-template-columns: auto auto;
+    gap:20px;
+    padding:10px 0;
+}
+button{
+    width:25px;
+    height:20px;
+    background-color:  #F2994A;
+    border:none;
+    color:white;
+    border-radius:3px;
+}
+.button-text p{
+    font-size:0.8rem;
+    font-family: 'Montserrat', sans-serif;
+    line-height:19px;
+}
+.source{
+    margin-top:1.8rem;
+}
+.source a{
+    color:#4F4F4F;
+    opacity:40%;
+    font-style: italic;
+    font-family: 'Montserrat', sans-serif;
+    font-size:0.8rem;
+    text-decoration: none;
+}
+.creator{
+    text-align: center;
+    font-family: 'Montserrat', sans-serif;
+    font-size:0.8rem;
+    margin-top:3.5rem;
+}
+.creator a{
+    text-decoration: none;
+    color:#BDBDBD;
+}
+/* ===================================375PX=================================================== */
+@media screen and (max-width:480px) {
+    body{
+        margin:2rem 0.7rem;
+    }
+    .heading h1{
+        font-size:1.5rem;
+    }
+    .container-one p{
+        font-size:0.8rem;
+        width:100%;
+    }
+    .main-photo img{
+        border-radius: 10px;
+        height:35vh;
+        margin-bottom:0;
+    }
+    .floating{
+        float:none;
+        background-color:transparent;
+        box-shadow: none;
+        width:100%;
+        height:auto;
+        border:none;
+    }
+    .time{
+        display:flex;
+        flex-direction: row;
+        justify-content: space-between;
+        width:90%;
+        margin-bottom:0.8rem;
+    }
+    .knife-fork{
+        display:flex;
+        margin-top:1.5rem;
+        margin-bottom:1.2rem;
+        padding:0rem;
+    }
+    .item{
+        display:flex;
+        padding:0;
+    }
+    .side-text h4,
+    .side h4{
+    font-size:0.6rem;
+    }
+    .side-text p,
+    .side p{
+    font-size:0.7rem;
+    }
+    .icon{
+    font-size:1.5rem;
+    margin-top:0.3rem;
+    }
+    i{
+    font-size:1rem; 
+    }
+    .side-text{
+        padding:0.4rem;
+    }
+    .side{
+        padding:0.4rem;
+    }
+    .item i{
+        margin-top:0.7rem;
+    }
+    .left{
+        width:100%;
+    }
+    h2{
+        font-size:1.2rem;
+    }
+    label{
+        font-size:0.7rem;
+        padding-left:10px;
+    }
+    .button-text p{
+        font-size:0.7rem;
+    }
+    .source{
+        margin-top:1.8rem;
+    }
+    .source a{
+        font-size:0.7rem;
+    }
+    .creator{
+        font-size:0.7rem;
+        margin-top:3.5rem;
+    }
+}
